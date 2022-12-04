@@ -18,9 +18,9 @@ public class Main {
         Empleado p2 = Empleado.crearEmpleado("Pepe Pérez", -31, new Date(90, Calendar.FEBRUARY, 1));
         System.out.println(p2);
          */
-        
-        System.out.println("Si quiero mostrar solo el nombre: " + p.nombre);
-        System.out.println("Si quiero mostrar solo la edad no puedo: " + p.edad); // necesito un getter
+
+        System.out.println("Si quiero mostrar solo el nombre: " + p.getNombre());
+        System.out.println("Si quiero mostrar solo la edad: " + p.getEdad());
         
     }
 }
